@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/ancrypt-techfin/ancrypt.io",
   "name": "arta-web",
   "version": "0.1.0",
   "private": true,
@@ -6,6 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "lint": "next lint",
     "type": "module",
     "export": "next export"
@@ -28,6 +31,7 @@
     "autoprefixer": "^10.4.12",
     "eslint": "8.24.0",
     "eslint-config-next": "12.3.1",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.16",
     "prettier-plugin-tailwindcss": "^0.1.13",
     "tailwindcss": "^3.1.8",
