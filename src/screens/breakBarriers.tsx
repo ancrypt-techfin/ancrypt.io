@@ -83,8 +83,8 @@ export const BreakBarriers = () => {
             BARRIERS
             <span className="flex space-x-2">
               <hr className=" mt-[20px] h-[4px] w-[40px] sm:mt-[0.45em] sm:w-[80px]"></hr>
-              <span className="pr-3 text-[30px] sm:text-[0.6em]">for </span>{' '}
-              GREATNESS
+              <span className="pr-3 text-[30px] sm:text-[0.6em]">{' '}
+              TODAY
             </span>
           </h1>
         </div>
