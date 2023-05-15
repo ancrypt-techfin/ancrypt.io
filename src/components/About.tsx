@@ -4,9 +4,16 @@ import { useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 
-const PhotoWithText = ({ imageUrl, caption, description }) => {
+interface PhotoWithTextProps {
+  imageUrl: string;
+  caption: string;
+  description: string;
+  className?: string;
+}
+
+const PhotoWithText: React.FC<PhotoWithTextProps> = ({ imageUrl, caption, description, className }) => {
   return (
-    <div className="photo-with-text">
+    <div className={`photo-with-text ${className}`}>
       <div className="photo">
         <Image src={imageUrl} alt="Photo" width={200} height={250} />
       </div>
@@ -42,6 +49,7 @@ const About = () => {
       }
     );
   }, []);
+  
   return (
     <div className="relative z-2 flex h-screen w-full flex-col bg-about-gradient md:flex-row">
       <div className="absolute  w-full overflow-hidden md:h-full z-0">
@@ -67,19 +75,21 @@ const About = () => {
 
 
         <div className="app">
-            <h1 className="Leaders">Our Leaders</h1>
+            <h1>Our Leaders</h1>
             <div className="photo-container">
               <div className="photo-unit">
-                <PhotoWithText className="Leaders"
+                <PhotoWithText
                   imageUrl="/images/1.jpeg"
-                  description="Co-Chief Executive Officer Mr. Eddie Lau"
+                  caption="Mr. Eddie Lau"
+                  description="Co-Chief Executive Officer"
                 />
               </div>
               
               <div className="photo-unit">
-                <PhotoWithText className="Leaders"
+                <PhotoWithText
                   imageUrl="/images/2.jpeg"
-                  description="Co-Chief Executive Officer Mr. Peter Woo"
+                  caption="Mr. Peter Woo"
+                  description="Co-Chief Executive Officer"
                 />
               </div>
             </div>

@@ -7,45 +7,7 @@ const OurBusiness = () => {
   const businessRef = useRef(null);
   gsap.registerPlugin(ScrollTrigger);
 
-  const PhotoWithText = ({ imageUrl, caption, description }) => {
-    return (
-      <div className="photo-with-text">
-        <div className="photo">
-          <Image src={imageUrl} alt="Photo" width={200} height={250} />
-        </div>
-        <div className="text">
-          <p className="caption">{caption}</p>
-          <p className="description">{description}</p>
-        </div>
-      </div>
-    );
-  };
 
-  useEffect(() => {
-    ScrollTrigger.refresh();
-    gsap.fromTo(
-      '#BusinessAnime',
-      {
-        autoAlpha: 0,
-        xPercent: -15,
-      },
-      {
-        delay: 1,
-        duration: 1,
-        autoAlpha: 1,
-        xPercent: 0,
-        ease: 'slow(0.7, 0.7, false)',
-        scrollTrigger: {
-          id: 'BusinessAnime',
-          trigger: '#BusinessAnime',
-          start: 'top center+=500',
-          toggleActions: 'play none none reverse',
-        },
-      }
-    );
-  }, []);
-
-  
 
   return (
     <div className="relative h-screen screen-start z-2 ">
@@ -121,6 +83,16 @@ const OurBusiness = () => {
           </a>
 
 
+         
+
+
+     
+          
+          
+      </div>
+      
+      
+    <br/>
     <br/>
 
     
@@ -130,7 +102,7 @@ const OurBusiness = () => {
 
         <div className=""></div>
       </div>
-    </div>
+
 
     
   )
