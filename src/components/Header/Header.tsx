@@ -20,8 +20,8 @@ const pageInfoList: pageInfoItemT[] = [
     pageName: 'About Us',
     title: 'About Us',
     paragraph:
-      'ARTA TechFin is determined to create the fairest, most transparent, and open markets in the world. We carry this out every day by providing clients with a variety of financial services.',
-    buttonText: 'About Us home',
+      'Authowise is a hybrid fintech platform that bridges Web2 and Web3 through innovation in blockchain infrastructures and applications. ',
+    buttonText: 'About Us',
     pages: [
       'Vision and Mission',
       'Culture and Values',
@@ -30,47 +30,47 @@ const pageInfoList: pageInfoItemT[] = [
     ],
   },
   {
-    pageName: 'Our Businesses',
-    title: 'Our Businesses',
+    pageName: 'Vision & Mission',
+    title: 'Vision & Mission',
     paragraph:
-      'ARTA TechFin is determined to create the fairest, most transparent, and open markets in the world. We carry this out every day by providing clients with a variety of financial services.',
-    buttonText: 'Our Businesses home',
+      'Authowise helps the world transition from Web2 to Web3 by leveraging cutting-edge technology to empower individuals and businesses to take control of their financial lives.',
+    buttonText: 'Vision & Mission',
     pages: [
-      'Asset Management',
-      'Investment Banking',
-      'Insurance Brokerage',
-      'Securities Brokerage',
-      'Artazine',
+      'Vision',
+      'Mission',
+      'Values',
+      
     ],
   },
   {
-    pageName: 'Investor Relations',
-    title: 'Investor Relations',
+    pageName: 'Culture & Values',
+    title: 'Culture & Values',
     paragraph:
-      'ARTA TechFin is determined to create the fairest, most transparent, and open markets in the world. We carry this out every day by providing clients with a variety of financial services.',
-    buttonText: 'Investor Relations',
+      'Authowise strives to create a company culture that is innovative, collaborative, and customer-focused.',
+    buttonText: 'Culture & Values',
     pages: [
-      'Announcements and notices',
-      'Financial Reports',
-      'Financial Calender',
-      'ESG',
+      'Innovation',
+      'Collaboration',
+      'Customer focus',
+      'Diversity & Inclusion',
+      'Work-life balance',
     ],
   },
   {
     pageName: 'Media Centre',
     title: 'Media Centre',
     paragraph:
-      'ARTA TechFin is determined to create the fairest, most transparent, and open markets in the world. We carry this out every day by providing clients with a variety of financial services.',
+      'Authowise is determined to create the fairest, most transparent, and open markets in the world. We carry this out every day by providing clients with a variety of services.',
     buttonText: 'Media Centre home',
-    pages: ['ARTA Blog', 'Press Release', 'Media Enquiry'],
+    pages: ['Authowise Blog', 'Press Release', 'Media Enquiry'],
   },
   {
     pageName: 'Contact Us',
     title: 'Contact Us',
     paragraph:
-      'ARTA TechFin is determined to create the fairest, most transparent, and open markets in the world. We carry this out every day by providing clients with a variety of financial services.',
+      'Authowise is determined to create the fairest, most transparent, and open markets in the world. We carry this out every day by providing clients with a variety of services.',
     buttonText: 'Contact Us home',
-    pages: ['Work with ARTA', 'Job Openings', 'Our Office'],
+    pages: ['Work with Authowise', 'Job Openings', 'Our Office'],
   },
 ]
 
@@ -124,23 +124,16 @@ const Header: React.FC = () => {
                 )
               })}
             </div>
-            <div
-              className="flex cursor-pointer items-center justify-center p-2 text-[#F4F1E1] lg:hidden"
-              onClick={() => setShowMenu(!showMenu)}
-            >
-              <img src="/images/Group 1.png" alt="menu" />
-            </div>
-            <div className="text-right z-[1]">
-              <Link href="/">
-                <div className="relative cursor-pointer opacity-100 transition hover:opacity-100">
-                  <img
-                    src="/images/arta-logo.svg"
-                    alt="Arta"
-                    className="object-contain"
-                  />
-                </div>
-              </Link>
-            </div>
+            <div className="flex cursor-pointer items-center justify-center p-2 text-[#F4F1E1] lg:hidden" onClick={() => setShowMenu(!showMenu)}>
+            <img src="/images/Group 1.png" alt="menu" style={{ width: '60%', marginLeft: 'auto' }} />
+          </div>
+          <div className="text-right z-[1]">
+            <Link href="/">
+              <div className="relative cursor-pointer opacity-100 transition hover:opacity-100 ">
+                <img src="/images/logo1.png" alt="Arta" className="object-contain" style={{ width: '60%', marginLeft: 'auto' }} />
+              </div>
+            </Link>
+          </div>
           </div>
 
           <div

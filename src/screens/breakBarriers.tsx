@@ -71,20 +71,14 @@ export const BreakBarriers = () => {
         Your browser does not support the video tag.
       </video>
       {/* top-[20%] left-0   sm:top-[40%] lg:left-[10%] xl:left-[20%] xl:mx-auto */}
-      <div className=" flex max-w-main-contain items-start justify-center px-6  xl:mx-auto movable-elements-wrapper">
-        <div className="absolute  top-[20%] left-0 sm:top-[35%] xl:left-[10%] xl:mx-auto 2xl:left-[15%] ">
-          <h1
-            id="animation"
-            ref={sec1TtlRef}
-            className="z-[200] font-Verah text-[36px] leading-[40px] text-white sm:text-[5em] sm:leading-[1.02em] movable text-left"
-          >
-            BREAK
+      <div className="flex max-w-main-contain items-start justify-center px-6 xl:mx-auto movable-elements-wrapper">
+        <div className="absolute top-[20%] left-0 sm:top-[35%] xl:left-[10%] xl:mx-auto 2xl:left-[15%]">
+          <h1 id="animation" ref={sec1TtlRef} className="z-[200] font-Verah text-4xl leading-10 text-white sm:text-6xl sm:leading-tight movable text-left">
+            BREAK BARRIERS TODAY
             <br />
-            BARRIERS
             <span className="flex space-x-2">
-              <hr className=" mt-[20px] h-[4px] w-[40px] sm:mt-[0.45em] sm:w-[80px]"></hr>
-              <span className="pr-3 text-[30px] sm:text-[0.6em]">{' '}
-              TODAY
+              <hr className="mt-6 h-1.5 w-12 sm:mt-1.5 sm:w-24" />
+              <span className="pr-3 text-lg sm:text-base">FOR BRIDGING TO<br />A DECENTRALIZED TOMORROW</span>
             </span>
           </h1>
         </div>

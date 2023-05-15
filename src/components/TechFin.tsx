@@ -170,16 +170,24 @@ const TechFin = () => {
             className="mr-auto flex h-full w-full flex-col items-start justify-center gap-[24px] text-left md:items-end md:text-right"
           >
             <h1 className="font-Verah text-[48px] text-white md:text-[68px] text-left">
-              What is TechFin
+              About Authowise
             </h1>
             <p className="max-w-full pb-5 text-left font-Neue text-base text-white md:max-w-[700px] md:text-right">
-              ARTA TechFin believes that technology is the key to building a
-              happier and more fulfilling future for all. As technology has
-              continually transformed how we live and do business, it is
-              expected that technology-driven change in the financial services
-              sector will be the next wave. And we aim to be at the forefront of
-              this change.{' '}
+              Authowise leverages the latest trust and privacy technologies to build a trust infrastructure bridge the regulated world of centralized finance to new frontiers in decentralized finance.{' '}
             </p>
+
+            <p className="max-w-full pb-5 text-left font-Neue text-base text-white md:max-w-[700px] md:text-right">Authowise is a joint venture between ARTA TechFin Corporation Limited (HKEX: 279) and EMALI Limited. 
+
+                ARTA TechFin is a hybrid fintech platform that bridges Web2 and Web3 through innovation in blockchain infrastructures and applications. 
+
+                EMALI is an enterprise technology company that develops, licenses, supports, and delivers fintech software, solutions, and related services to the Asia Pacific region and beyond, specializing in AI, blockchain, cryptography, security, and privacy technologies.</p>
+
+
+           
+
+
+
+
             <a
               href="#_"
               className="group relative inline-flex w-full items-center justify-center overflow-hidden rounded-full border  border-white py-[8px] px-[32px] font-Neue text-base font-normal text-white shadow-md transition duration-300 ease-out sm:w-fit"

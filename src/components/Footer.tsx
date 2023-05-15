@@ -111,7 +111,7 @@ const Footer = () => {
           {/* <div></div> */}
           <div className="order-1 mb-4 flex items-start justify-start space-y-3 lg:order-2 lg:mb-0 lg:space-y-0">
             <h3 className="text-left text-[32px] font-bold leading-[40px] text-white lg:text-right lg:text-[36px] lg:leading-[45px]">
-              Break Barriers for Greatness.
+              Break Barriers Today.
             </h3>
           </div>
         </div>
@@ -125,7 +125,7 @@ const Footer = () => {
             <p className="cursor-pointer hover:underline">繁中 簡中</p>
           </div>
           <div className="text-xs leading-[20px]">
-            <p>© Arta TechFin Corporation Limited. All rights reserved.</p>
+            <p>© Authowise Limited. All rights reserved.</p>
           </div>
         </div>
       </div>

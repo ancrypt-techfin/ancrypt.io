@@ -1,12 +1,28 @@
-import React, { useRef, useEffect } from 'react'
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
+import React, { useRef, useEffect } from 'react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+import Image from 'next/image';
 
 const OurBusiness = () => {
-  const businessRef = useRef(null)
-  gsap.registerPlugin(ScrollTrigger)
+  const businessRef = useRef(null);
+  gsap.registerPlugin(ScrollTrigger);
+
+  const PhotoWithText = ({ imageUrl, caption, description }) => {
+    return (
+      <div className="photo-with-text">
+        <div className="photo">
+          <Image src={imageUrl} alt="Photo" width={200} height={250} />
+        </div>
+        <div className="text">
+          <p className="caption">{caption}</p>
+          <p className="description">{description}</p>
+        </div>
+      </div>
+    );
+  };
+
   useEffect(() => {
-    ScrollTrigger.refresh()
+    ScrollTrigger.refresh();
     gsap.fromTo(
       '#BusinessAnime',
       {
@@ -19,16 +35,18 @@ const OurBusiness = () => {
         autoAlpha: 1,
         xPercent: 0,
         ease: 'slow(0.7, 0.7, false)',
-
         scrollTrigger: {
-          id: `BusinessAnime`,
+          id: 'BusinessAnime',
           trigger: '#BusinessAnime',
           start: 'top center+=500',
           toggleActions: 'play none none reverse',
         },
       }
-    )
-  }, [])
+    );
+  }, []);
+
+  
+
   return (
     <div className="relative h-screen screen-start z-2 ">
       <div className="flex h-full w-full max-w-main-contain flex-col items-center px-6 py-8 md:flex-row md:px-24 xl:mx-auto">
@@ -38,38 +56,43 @@ const OurBusiness = () => {
           className="flex h-full flex-col items-start justify-center justify-items-center gap-[24px] text-white opacity-0"
         >
           <h1 className="font-verah text-[48px] text-white md:text-[68px]">
-            Our Businesses
+            Culture & Values
           </h1>
           <p className="max-w-full pb-5 text-left font-Neue text-base text-white md:max-w-[600px]">
-            ARTA TechFin is determined to create the fairest, most transparent,
-            and open markets in the world. We carry this out every day by
-            providing clients with a variety of financial services.
+          Authowise is dedicated to cultivating an exceptional company culture that fosters innovation, collaboration, and a customer-centric approach. We firmly believe that a strong culture is the bedrock of our success, and we actively nurture an environment that inspires our talented team to thrive and exceed expectations.
           </p>
           <ul className="flex w-full list-none flex-col items-center justify-center gap-[24px] lg:flex-row lg:items-start">
             <li className="activeList innerShadow">
-              <a href="#">Asset Management</a>
+              <a href="#">Innovation</a>
             </li>
             <li className="list hidden lg:flex">
               {' '}
-              <a href="#">Investment Banking</a>
+              <a href="#">Collaboration</a>
             </li>
             <li className="list hidden lg:flex">
               {' '}
-              <a href="#">Insurance Brokerage</a>
+              <a href="#">Customer focus</a>
             </li>
             <li className="list hidden lg:flex">
               {' '}
-              <a href="#">Securities Brokerage</a>
+              <a href="#">Diversity and inclusion</a>
             </li>
             <li className="list hidden lg:flex">
               {' '}
-              <a href="#">Artazine</a>
+              <a href="#">Work-life balance</a>
             </li>
           </ul>
+
+
+
+          
           <p className="max-w-full pb-5 text-left font-Neue text-base text-white md:max-w-[220px]">
             We develop innovative and transformative blockchain-enabled
-            solutions for financial services processes and products.
+            solutions to service society.
           </p>
+
+
+
           <a
             href="#_"
             className="group relative inline-flex w-full items-center justify-center overflow-hidden rounded-full border border-white  py-[8px] px-[32px] font-Neue text-base font-normal text-white shadow-md transition duration-300 ease-out sm:w-fit"
@@ -96,12 +119,22 @@ const OurBusiness = () => {
             </span>
             <span className="invisible relative font-Neue">Learn more</span>
           </a>
+
+
+    <br/>
+
+    
+
+
         </div>
 
         <div className=""></div>
       </div>
     </div>
+
+    
   )
 }
+
 
 export default OurBusiness

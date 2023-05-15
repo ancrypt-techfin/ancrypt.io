@@ -14,7 +14,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>ARTA WEB</title>
+        <title>Authowise</title>
         <meta name="description" content="Arta" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

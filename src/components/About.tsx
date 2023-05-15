@@ -1,7 +1,47 @@
-import React from 'react'
-import Image from 'next/image'
+import React from 'react';
+import Image from 'next/image';
+import { useEffect } from 'react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 
-const About: React.FC = () => {
+const PhotoWithText = ({ imageUrl, caption, description }) => {
+  return (
+    <div className="photo-with-text">
+      <div className="photo">
+        <Image src={imageUrl} alt="Photo" width={200} height={250} />
+      </div>
+      <div className="text">
+        <p className="caption">{caption}</p>
+        <p className="description">{description}</p>
+      </div>
+    </div>
+  );
+};
+
+const About = () => {
+  useEffect(() => {
+    ScrollTrigger.refresh();
+    gsap.fromTo(
+      '#BusinessAnime',
+      {
+        autoAlpha: 0,
+        xPercent: -15,
+      },
+      {
+        delay: 1,
+        duration: 1,
+        autoAlpha: 1,
+        xPercent: 0,
+        ease: 'slow(0.7, 0.7, false)',
+        scrollTrigger: {
+          id: 'BusinessAnime',
+          trigger: '#BusinessAnime',
+          start: 'top center+=500',
+          toggleActions: 'play none none reverse',
+        },
+      }
+    );
+  }, []);
   return (
     <div className="relative z-2 flex h-screen w-full flex-col bg-about-gradient md:flex-row">
       <div className="absolute  w-full overflow-hidden md:h-full z-0">
@@ -21,25 +61,81 @@ const About: React.FC = () => {
       <div className="w-full flex z-1 justify-center max-w-main-contain m-auto items-center">
         <div className="md:max-w-[500px] p-6 flex-col w-1/2">
           <div className="relative h-full cursor-pointer opacity-100 transition hover:opacity-100 m-auto">
-            <Image
-              src="/images/Group.png"
-              alt="Logo"
-              className="object-contain"
-              width={236}
-              height={96}
-            />
+          
           </div>
         </div>
+
+
+        <div className="app">
+            <h1 className="Leaders">Our Leaders</h1>
+            <div className="photo-container">
+              <div className="photo-unit">
+                <PhotoWithText className="Leaders"
+                  imageUrl="/images/1.jpeg"
+                  caption="John Doe"
+                  description="Co-Chief Executive Officer Mr. Eddie Lau"
+                />
+              </div>
+              
+              <div className="photo-unit">
+                <PhotoWithText className="Leaders"
+                  imageUrl="/images/2.jpeg"
+                  caption="Jane Smith"
+                  description="Co-Chief Executive Officer Mr. Peter Woo"
+                />
+              </div>
+            </div>
+          
+      </div>
+      
+      <style jsx>{`
+      .Leaders{
+        color:white;
+        font-size: 24px; // Adjust the font size as needed
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+       .app {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left:-30%;
+      }
+      
+      .photo-container {
+        display: flex;
+        justify-content: center;
+      }
+      
+      .photo-unit {
+        margin: 20px; /* Adjust the margin value as needed */
+      }
+      
+      .photo {
+        width: 200px; /* Adjust the image width as needed */
+        height: 200px; /* Adjust the image height as needed */
+        object-fit: cover; /* Ensure the image maintains its aspect ratio */
+      }
+      
+      .caption {
+        font-weight: bold;
+      }
+      
+      .description {
+        color: gray;
+      }
+
+      `}</style>
+
         <div className="ml-auto text-right h-full w-1/2 flex-col items-end justify-center gap-[24px] p-6  ">
           <h1 className="font-Verah text-[48px] font-normal text-white md:text-[68px]">
-            About ARTA
+            Authowise
           </h1>
           <p className="font-Neue text-white">
-            ARTA TechFin aims to build the next generation of financial
-            services, using technology to transform the traditional financial
-            industry and expand into new services, products and experiences.
+            Authowise helps the world transition from Web2 to Web3 by leveraging cutting-edge technology to empower individuals and businesses to take control of their financial lives.
           </p>
-
+          <br/>
           <a
             href="#_"
             className="group relative inline-flex w-fit items-center justify-center overflow-hidden rounded-full border  border-white py-[8px] px-[32px] font-Neue text-base font-normal text-white shadow-md transition duration-300 ease-out"
