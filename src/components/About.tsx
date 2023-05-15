@@ -72,7 +72,6 @@ const About = () => {
               <div className="photo-unit">
                 <PhotoWithText className="Leaders"
                   imageUrl="/images/1.jpeg"
-                  caption="John Doe"
                   description="Co-Chief Executive Officer Mr. Eddie Lau"
                 />
               </div>
@@ -80,7 +79,6 @@ const About = () => {
               <div className="photo-unit">
                 <PhotoWithText className="Leaders"
                   imageUrl="/images/2.jpeg"
-                  caption="Jane Smith"
                   description="Co-Chief Executive Officer Mr. Peter Woo"
                 />
               </div>
