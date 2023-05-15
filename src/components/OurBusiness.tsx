@@ -178,7 +178,7 @@ const OurBusiness = () => {
                  
                   
                   <p className="max-w-full pb-5 font-Neue text-base text-white md:max-w-[1000px]">
-                    <a href="mailto:cynthia.cheung@authowise.com" className="text-yellow-500">cynthia.cheung@authowise.com</a>
+                    <a href="mailto:cynthia.cheung@authowise.com" className="text-yellow-1000">cynthia.cheung@authowise.com</a>
                   </p>
                   <p className="max-w-full pb-5 font-Neue text-base text-white md:max-w-[1000px]">
                     +852 6598 8606
@@ -188,10 +188,23 @@ const OurBusiness = () => {
             </div>
 
 
+          
+       
+
+
+
+
+
           </div>
+
+          
+
           
         </div>
       </div>
+
+
+
 
 
 
