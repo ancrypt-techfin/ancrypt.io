@@ -73,10 +73,14 @@ export const BreakBarriers = () => {
       {/* top-[20%] left-0   sm:top-[40%] lg:left-[10%] xl:left-[20%] xl:mx-auto */}
       <div className="flex max-w-main-contain items-start justify-center px-6 xl:mx-auto movable-elements-wrapper">
         <div className="absolute top-[20%] left-0 sm:top-[35%] xl:left-[10%] xl:mx-auto 2xl:left-[15%]">
-          <h1 id="animation" ref={sec1TtlRef} className="z-[200] font-Verah text-4xl leading-10 text-white sm:text-6xl sm:leading-tight movable text-left">
+          <h1
+            id="animation"
+            ref={sec1TtlRef}
+            className="z-[200] font-Verah text-4xl leading-10 text-white sm:text-6xl sm:leading-tight movable text-left mt-8"
+          >
             BREAK BARRIERS TODAY
             <br />
-            <span className="flex space-x-2">
+            <span className="flex space-x-2 mt-4">
               <hr className="mt-6 h-1.5 w-12 sm:mt-1.5 sm:w-24" />
               <span className="pr-3 text-lg sm:text-base">FOR BRIDGING TO<br />A DECENTRALIZED TOMORROW</span>
             </span>

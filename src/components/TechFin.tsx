@@ -161,7 +161,7 @@ const TechFin = () => {
   }, [])
 
   return (
-    <div className="h-screen w-full  overflow-hidden box-border relative">
+    <div className="min-h-screen w-full  overflow box-border relative">
       <div className="flex h-full max-w-main-contain flex-col items-center justify-center px-6 py-8 md:flex-row md:px-24 2xl:mx-auto">
         <div className="relative h-full w-full z-2">
           <div
@@ -169,6 +169,8 @@ const TechFin = () => {
             ref={TechRef}
             className="mr-auto flex h-full w-full flex-col items-start justify-center gap-[24px] text-left md:items-end md:text-right"
           >
+           
+
             <h1 className="font-Verah text-[48px] text-white md:text-[68px] text-left">
               About Authowise
             </h1>
@@ -185,6 +187,13 @@ const TechFin = () => {
 
            
 
+                <p className="max-w-full pb-3 text-left font-Neue text-base text-white md:max-w-[900px] md:text-left">
+                  <strong className="font-bold text-2xl text-yellow-500 md:text-3xl">Vision:</strong> To be a leader in the next generation of financial technology, empowering individuals and businesses worldwide to take control of their financial lives through innovative blockchain and AI-based solutions.
+                  <br /><br />
+                  <strong className="font-bold text-2xl text-yellow-500 md:text-3xl">Mission:</strong> Our mission is to create a more inclusive and equitable financial ecosystem by providing individuals and businesses with the tools and resources they need to succeed. By leveraging the latest advancements in blockchain and AI technologies, we aim to democratize finance and make it accessible to everyone, regardless of their background or location.
+                  <br /><br />
+                  <strong className="font-bold text-2xl text-yellow-500 md:text-3xl">Values:</strong> Our core values are innovation, inclusivity, transparency, security, and privacy. We believe in pushing the boundaries of what is possible through innovation, while also ensuring that our solutions are accessible and inclusive to all. We are committed to transparency, security, and privacy in all of our operations, and we prioritize the needs and interests of our customers above all else.
+                </p>
 
 
 
@@ -192,6 +201,9 @@ const TechFin = () => {
               href="#_"
               className="group relative inline-flex w-full items-center justify-center overflow-hidden rounded-full border  border-white py-[8px] px-[32px] font-Neue text-base font-normal text-white shadow-md transition duration-300 ease-out sm:w-fit"
             >
+
+
+
               <span className="ease absolute inset-0 flex h-full w-full -translate-x-full items-center justify-center space-x-4 bg-[#f1eded45] text-white duration-300 group-hover:translate-x-0">
                 <svg
                   className="h-4 w-4"
@@ -262,8 +274,12 @@ const TechFin = () => {
           </video>
         </div>
       </div>
+      
     </div>
+    
   )
 }
+
+
 
 export default TechFin

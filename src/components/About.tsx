@@ -15,7 +15,7 @@ const PhotoWithText: React.FC<PhotoWithTextProps> = ({ imageUrl, caption, descri
   return (
     <div className={`photo-with-text ${className}`}>
       <div className="photo">
-        <Image src={imageUrl} alt="Photo" width={200} height={250} />
+        <Image src={imageUrl} alt="Photo" width={200} height={210} />
       </div>
       <div className="text">
         <p className="caption">{caption}</p>
@@ -50,8 +50,9 @@ const About = () => {
     );
   }, []);
   
+
   return (
-    <div className="relative z-2 flex h-screen w-full flex-col bg-about-gradient md:flex-row">
+    <div className="relative z-2 flex min-h-screen w-full flex-col bg-about-gradient md:flex-row">
       <div className="absolute  w-full overflow-hidden md:h-full z-0">
         <video
           autoPlay
@@ -75,7 +76,7 @@ const About = () => {
 
 
         <div className="app">
-            <h1>Our Leaders</h1>
+            <h1 className="text-yellow-500 text-4xl font-bold mb-8">Our Leaders</h1>
             <div className="photo-container">
               <div className="photo-unit">
                 <PhotoWithText
@@ -84,7 +85,6 @@ const About = () => {
                   description="Co-Chief Executive Officer"
                 />
               </div>
-              
               <div className="photo-unit">
                 <PhotoWithText
                   imageUrl="/images/2.jpeg"
@@ -93,6 +93,8 @@ const About = () => {
                 />
               </div>
             </div>
+        
+
           
       </div>
       
@@ -144,10 +146,56 @@ const About = () => {
             Authowise helps the world transition from Web2 to Web3 by leveraging cutting-edge technology to empower individuals and businesses to take control of their financial lives.
           </p>
           <br/>
+
+          <div className="font-Neue text-white">
+          <table className="w-full">
+                    <tbody>
+                      <tr>
+                        <td className="py-2 pr-8">
+                          Chairman & Non-Executive Director
+                        </td>
+                        <td className="py-2">
+                          <strong className="text-yellow-500">Dr. Adrian Cheng Chi-Kong, SBS, JP</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="py-2 pr-8">
+                          Chief Executive Officer & Executive Director
+                        </td>
+                        <td className="py-2">
+                          <strong className="text-yellow-500">Mr. Eddie Lau</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="py-2 pr-8">
+                          Chief Financial Officer & Executive Director
+                        </td>
+                        <td className="py-2">
+                          <strong className="text-yellow-500">Ms. Pamela Yeung</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="py-2 pr-8">
+                          Chief Technology Officer & Executive Director
+                        </td>
+                        <td className="py-2">
+                          <strong className="text-yellow-500">Mr. Peter Woo</strong>
+                        </td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                </div>
+
+
+        
+            <br/>
+        
           <a
             href="#_"
             className="group relative inline-flex w-fit items-center justify-center overflow-hidden rounded-full border  border-white py-[8px] px-[32px] font-Neue text-base font-normal text-white shadow-md transition duration-300 ease-out"
           >
+
             <span className="ease absolute inset-0 flex h-full w-full -translate-x-full items-center justify-center space-x-4 bg-[#f1eded45] text-white duration-300 group-hover:translate-x-0">
               <svg
                 className="h-4 w-4"

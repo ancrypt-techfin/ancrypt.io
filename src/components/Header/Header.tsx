@@ -99,7 +99,7 @@ const Header: React.FC = () => {
       >
         <header className="max-w-main-contain py-8 px-6 md:py-12 md:px-24 xl:mx-auto">
           <div className="flex w-full justify-between space-x-8">
-            <div className="hidden items-center justify-center space-x-8 lg:flex">
+            <div className="hidden items-center justify-center space-x-10 lg:flex">
               {pageInfoList.map((page, index) => {
                 const selected = index === activeTabIndex
                 const ChevronIcon = selected ? ChevronUpIcon : ChevronDownIcon
