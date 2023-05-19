@@ -125,7 +125,7 @@ const Footer = () => {
             <p className="cursor-pointer hover:underline">繁中 簡中</p>
           </div>
           <div className="text-xs leading-[20px]">
-            <p>© Authowise Limited. All rights reserved.</p>
+            <p>© Arta-Emali Limited. All rights reserved.</p>
           </div>
         </div>
       </div>

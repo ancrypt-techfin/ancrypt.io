@@ -172,13 +172,13 @@ const TechFin = () => {
            
 
             <h1 className="font-Verah text-[48px] text-white md:text-[68px] text-left">
-              About Authowise
+              About Arta-Emali
             </h1>
             <p className="max-w-full pb-5 text-left font-Neue text-base text-white md:max-w-[700px] md:text-right">
-              Authowise leverages the latest trust and privacy technologies to build a trust infrastructure bridge the regulated world of centralized finance to new frontiers in decentralized finance.{' '}
+            Arta-Emali leverages the latest trust and privacy technologies to build a trust infrastructure bridge the regulated world of centralized finance to new frontiers in decentralized finance.{' '}
             </p>
 
-            <p className="max-w-full pb-5 text-left font-Neue text-base text-white md:max-w-[700px] md:text-right">Authowise is a joint venture between ARTA TechFin Corporation Limited (HKEX: 279) and EMALI Limited. 
+            <p className="max-w-full pb-5 text-left font-Neue text-base text-white md:max-w-[700px] md:text-right">Arta-Emali is a joint venture between ARTA TechFin Corporation Limited (HKEX: 279) and EMALI Limited. 
 
                 ARTA TechFin is a hybrid fintech platform that bridges Web2 and Web3 through innovation in blockchain infrastructures and applications. 
 

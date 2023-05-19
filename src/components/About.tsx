@@ -140,10 +140,10 @@ const About = () => {
 
         <div className="ml-auto text-right h-full w-1/2 flex-col items-end justify-center gap-[24px] p-6  ">
           <h1 className="font-Verah text-[48px] font-normal text-white md:text-[68px]">
-            Authowise
+            Arta-Emali
           </h1>
           <p className="font-Neue text-white">
-            Authowise helps the world transition from Web2 to Web3 by leveraging cutting-edge technology to empower individuals and businesses to take control of their financial lives.
+            Arta-Emali helps the world transition from Web2 to Web3 by leveraging cutting-edge technology to empower individuals and businesses to take control of their financial lives.
           </p>
           <br/>
 

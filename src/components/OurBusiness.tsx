@@ -26,7 +26,7 @@ const OurBusiness = () => {
             Culture & Values
           </h1>
           <p className="max-w-full pb-5 text-left font-Neue text-base text-white md:max-w-[600px]">
-          Authowise is dedicated to cultivating an exceptional company culture that fosters innovation, collaboration, and a customer-centric approach. We firmly believe that a strong culture is the bedrock of our success, and we actively nurture an environment that inspires our talented team to thrive and exceed expectations.
+          Arta-Emali is dedicated to cultivating an exceptional company culture that fosters innovation, collaboration, and a customer-centric approach. We firmly believe that a strong culture is the bedrock of our success, and we actively nurture an environment that inspires our talented team to thrive and exceed expectations.
           </p>
           <ul className="flex w-full list-none flex-col items-center justify-center gap-[24px] lg:flex-row lg:items-start">
             <li className="activeList innerShadow">
@@ -61,7 +61,7 @@ const OurBusiness = () => {
 
           <p className="max-w-full pb-5 text-left font-Neue text-base text-white md:max-w-[1000px]">
             <span className="block mb-4">
-              <span className="text-yellow-300 text-3xl md:text-4xl">Innovation:</span> At Authowise, we prioritize innovation and creativity in all aspects of our operations. We encourage our employees to think outside the box and push the boundaries of what is possible, always seeking new and innovative solutions to our customers' challenges.
+              <span className="text-yellow-300 text-3xl md:text-4xl">Innovation:</span> At Arta-Emali, we prioritize innovation and creativity in all aspects of our operations. We encourage our employees to think outside the box and push the boundaries of what is possible, always seeking new and innovative solutions to our customers' challenges.
             </span>
             <span className="block mb-4">
               <span className="text-yellow-300 text-3xl md:text-4xl">Collaboration:</span> We foster a collaborative and supportive work environment where teamwork is valued and encouraged. Open communication, feedback, and constructive criticism are prioritized, creating a culture of learning and growth.

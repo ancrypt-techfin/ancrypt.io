@@ -20,7 +20,7 @@ const pageInfoList: pageInfoItemT[] = [
     pageName: 'About Us',
     title: 'About Us',
     paragraph:
-      'Authowise is a hybrid fintech platform that bridges Web2 and Web3 through innovation in blockchain infrastructures and applications. ',
+      'Arta-Emali is a hybrid fintech platform that bridges Web2 and Web3 through innovation in blockchain infrastructures and applications. ',
     buttonText: 'About Us',
     pages: [
       'Vision and Mission',
@@ -33,7 +33,7 @@ const pageInfoList: pageInfoItemT[] = [
     pageName: 'Vision & Mission',
     title: 'Vision & Mission',
     paragraph:
-      'Authowise helps the world transition from Web2 to Web3 by leveraging cutting-edge technology to empower individuals and businesses to take control of their financial lives.',
+      'Arta-Emali helps the world transition from Web2 to Web3 by leveraging cutting-edge technology to empower individuals and businesses to take control of their financial lives.',
     buttonText: 'Vision & Mission',
     pages: [
       'Vision',
@@ -46,7 +46,7 @@ const pageInfoList: pageInfoItemT[] = [
     pageName: 'Culture & Values',
     title: 'Culture & Values',
     paragraph:
-      'Authowise strives to create a company culture that is innovative, collaborative, and customer-focused.',
+      'Arta-Emali strives to create a company culture that is innovative, collaborative, and customer-focused.',
     buttonText: 'Culture & Values',
     pages: [
       'Innovation',
@@ -60,17 +60,17 @@ const pageInfoList: pageInfoItemT[] = [
     pageName: 'Media Centre',
     title: 'Media Centre',
     paragraph:
-      'Authowise is determined to create the fairest, most transparent, and open markets in the world. We carry this out every day by providing clients with a variety of services.',
+      'Arta-Emali is determined to create the fairest, most transparent, and open markets in the world. We carry this out every day by providing clients with a variety of services.',
     buttonText: 'Media Centre home',
-    pages: ['Authowise Blog', 'Press Release', 'Media Enquiry'],
+    pages: ['Arta-Emali Blog', 'Press Release', 'Media Enquiry'],
   },
   {
     pageName: 'Contact Us',
     title: 'Contact Us',
     paragraph:
-      'Authowise is determined to create the fairest, most transparent, and open markets in the world. We carry this out every day by providing clients with a variety of services.',
+      'Arta-Emali is determined to create the fairest, most transparent, and open markets in the world. We carry this out every day by providing clients with a variety of services.',
     buttonText: 'Contact Us home',
-    pages: ['Work with Authowise', 'Job Openings', 'Our Office'],
+    pages: ['Work with Arta-Emali', 'Job Openings', 'Our Office'],
   },
 ]
 
