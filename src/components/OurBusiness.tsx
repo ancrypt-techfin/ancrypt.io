@@ -60,22 +60,23 @@ const OurBusiness = () => {
 
 
           <p className="max-w-full pb-5 text-left font-Neue text-base text-white md:max-w-[1000px]">
-              <span className="block mb-4">
-                <strong className="text-yellow-500 text-2xl">Innovation:</strong> At Authowise, we prioritize innovation and creativity in all aspects of our operations. We encourage our employees to think outside the box and push the boundaries of what is possible, always seeking new and innovative solutions to our customers' challenges.
-              </span>
-              <span className="block mb-4">
-                <strong className="text-yellow-500 text-2xl">Collaboration:</strong> We foster a collaborative and supportive work environment where teamwork is valued and encouraged. Open communication, feedback, and constructive criticism are prioritized, creating a culture of learning and growth.
-              </span>
-              <span className="block mb-4">
-                <strong className="text-yellow-500 text-2xl">Customer focus:</strong> Our customers are at the center of everything we do. We prioritize their needs and work tirelessly to create solutions that meet their unique challenges and requirements.
-              </span>
-              <span className="block mb-4">
-                <strong className="text-yellow-500 text-2xl">Diversity and inclusion:</strong> We strive to create a diverse and inclusive work environment that values and celebrates differences. Hiring and retaining a diverse workforce is a priority, and we promote equality and fairness through our policies and practices.
-              </span>
-              <span className="block">
-                <strong className="text-yellow-500 text-2xl">Work-life balance:</strong> We value work-life balance and prioritize the well-being of our employees. Flexible work arrangements are offered, and we encourage employees to take care of themselves and their families, recognizing that a healthy and happy workforce is essential to our success.
-              </span>
-            </p>
+            <span className="block mb-4">
+              <span className="text-yellow-300 text-3xl md:text-4xl">Innovation:</span> At Authowise, we prioritize innovation and creativity in all aspects of our operations. We encourage our employees to think outside the box and push the boundaries of what is possible, always seeking new and innovative solutions to our customers' challenges.
+            </span>
+            <span className="block mb-4">
+              <span className="text-yellow-300 text-3xl md:text-4xl">Collaboration:</span> We foster a collaborative and supportive work environment where teamwork is valued and encouraged. Open communication, feedback, and constructive criticism are prioritized, creating a culture of learning and growth.
+            </span>
+            <span className="block mb-4">
+              <span className="text-yellow-300 text-3xl md:text-4xl">Customer focus:</span> Our customers are at the center of everything we do. We prioritize their needs and work tirelessly to create solutions that meet their unique challenges and requirements.
+            </span>
+            <span className="block mb-4">
+              <span className="text-yellow-300 text-3xl md:text-4xl">Diversity and inclusion:</span> We strive to create a diverse and inclusive work environment that values and celebrates differences. Hiring and retaining a diverse workforce is a priority, and we promote equality and fairness through our policies and practices.
+            </span>
+            <span className="block">
+              <span className="text-yellow-300 text-3xl md:text-4xl">Work-life balance:</span> We value work-life balance and prioritize the well-being of our employees. Flexible work arrangements are offered, and we encourage employees to take care of themselves and their families, recognizing that a healthy and happy workforce is essential to our success.
+            </span>
+          </p>
+
 
 
 

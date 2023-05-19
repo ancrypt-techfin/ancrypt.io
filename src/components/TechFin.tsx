@@ -188,12 +188,14 @@ const TechFin = () => {
            
 
                 <p className="max-w-full pb-3 text-left font-Neue text-base text-white md:max-w-[900px] md:text-left">
-                  <strong className="font-bold text-2xl text-yellow-500 md:text-3xl">Vision:</strong> To be a leader in the next generation of financial technology, empowering individuals and businesses worldwide to take control of their financial lives through innovative blockchain and AI-based solutions.
+                  <span className="text-3xl text-yellow-300 md:text-4xl">Vision:</span> To be a leader in the next generation of financial technology, empowering individuals and businesses worldwide to take control of their financial lives through innovative blockchain and AI-based solutions.
                   <br /><br />
-                  <strong className="font-bold text-2xl text-yellow-500 md:text-3xl">Mission:</strong> Our mission is to create a more inclusive and equitable financial ecosystem by providing individuals and businesses with the tools and resources they need to succeed. By leveraging the latest advancements in blockchain and AI technologies, we aim to democratize finance and make it accessible to everyone, regardless of their background or location.
+                  <span className="text-3xl text-yellow-300 md:text-4xl">Mission:</span> Our mission is to create a more inclusive and equitable financial ecosystem by providing individuals and businesses with the tools and resources they need to succeed. By leveraging the latest advancements in blockchain and AI technologies, we aim to democratize finance and make it accessible to everyone, regardless of their background or location.
                   <br /><br />
-                  <strong className="font-bold text-2xl text-yellow-500 md:text-3xl">Values:</strong> Our core values are innovation, inclusivity, transparency, security, and privacy. We believe in pushing the boundaries of what is possible through innovation, while also ensuring that our solutions are accessible and inclusive to all. We are committed to transparency, security, and privacy in all of our operations, and we prioritize the needs and interests of our customers above all else.
+                  <span className="text-3xl text-yellow-300 md:text-4xl">Values:</span> Our core values are innovation, inclusivity, transparency, security, and privacy. We believe in pushing the boundaries of what is possible through innovation, while also ensuring that our solutions are accessible and inclusive to all. We are committed to transparency, security, and privacy in all of our operations, and we prioritize the needs and interests of our customers above all else.
                 </p>
+
+
 
 
 

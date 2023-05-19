@@ -116,6 +116,7 @@ const Header: React.FC = () => {
                         'z-[3] text-[1em] leading-[24px] decoration-arta-sunray-100 underline-offset-[20px] transition group-hover:underline' +
                         (selected ? ' underline' : '')
                       }
+                      style={{ margin: '0 10px', whiteSpace: 'nowrap' }} // Add margin hereeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
                     >
                       {page.pageName}
                     </span>

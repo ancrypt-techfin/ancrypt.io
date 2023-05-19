@@ -76,7 +76,7 @@ const About = () => {
 
 
         <div className="app">
-            <h1 className="text-yellow-500 text-4xl font-bold mb-8">Our Leaders</h1>
+            <span className="text-yellow-500 text-4xl font-bold mb-8">Our Leaders</span>
             <div className="photo-container">
               <div className="photo-unit">
                 <PhotoWithText
@@ -148,44 +148,43 @@ const About = () => {
           <br/>
 
           <div className="font-Neue text-white">
-          <table className="w-full">
-                    <tbody>
-                      <tr>
-                        <td className="py-2 pr-8">
-                          Chairman & Non-Executive Director
-                        </td>
-                        <td className="py-2">
-                          <strong className="text-yellow-500">Dr. Adrian Cheng Chi-Kong, SBS, JP</strong>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td className="py-2 pr-8">
-                          Chief Executive Officer & Executive Director
-                        </td>
-                        <td className="py-2">
-                          <strong className="text-yellow-500">Mr. Eddie Lau</strong>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td className="py-2 pr-8">
-                          Chief Financial Officer & Executive Director
-                        </td>
-                        <td className="py-2">
-                          <strong className="text-yellow-500">Ms. Pamela Yeung</strong>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td className="py-2 pr-8">
-                          Chief Technology Officer & Executive Director
-                        </td>
-                        <td className="py-2">
-                          <strong className="text-yellow-500">Mr. Peter Woo</strong>
-                        </td>
-                      </tr>
-                      
-                    </tbody>
-                  </table>
-                </div>
+            <table className="w-full">
+              <tbody>
+                <tr>
+                  <td className="py-2 pr-8">
+                    Chairman & Non-Executive Director
+                  </td>
+                  <td className="py-2">
+                    <span className="text-yellow-300">Dr. Adrian Cheng Chi-Kong, SBS, JP</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="py-2 pr-8">
+                    Chief Executive Officer & Executive Director
+                  </td>
+                  <td className="py-2">
+                    <span className="text-yellow-300">Mr. Eddie Lau</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="py-2 pr-8">
+                    Chief Financial Officer & Executive Director
+                  </td>
+                  <td className="py-2">
+                    <span className="text-yellow-300">Ms. Pamela Yeung</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td className="py-2 pr-8">
+                    Chief Technology Officer & Executive Director
+                  </td>
+                  <td className="py-2">
+                    <span className="text-yellow-300">Mr. Peter Woo</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
 
         
