@@ -130,7 +130,7 @@ const Header: React.FC = () => {
           <div className="text-right z-[1]">
             <Link href="/">
               <div className="relative cursor-pointer opacity-100 transition hover:opacity-100 ">
-                <img src="/images/logo1.png" alt="Arta" className="object-contain" style={{ width: '60%', marginLeft: 'auto' }} />
+                <img src="/images/2.png" alt="Arta" className="object-contain" style={{ width: '60%', marginLeft: 'auto' }} />
               </div>
             </Link>
           </div>
